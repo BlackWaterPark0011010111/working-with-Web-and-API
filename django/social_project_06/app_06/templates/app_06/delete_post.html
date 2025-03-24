@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Delete Post</h1>
+    <p>Are you sure you want to delete the post ?</p>
+    <form method="post" action="{% url 'delete-post' username=user.username post_id=post.id%}">
+        {%csrf_token%}
+        <button type="submit">
+            Delete this post
+        </button>
+    </form>
+    <a href="{% url 'user-posts' username=post.user.username %}"><button>No</button></a>
+</body>
+</html>

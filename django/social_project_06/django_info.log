@@ -1,0 +1,10 @@
+2024-03-28 12:54:35,486 INFO django.utils.autoreload Watching for file changes with StatReloader
+2024-03-28 12:54:37,807 WARNING app_06.views someone visited home page at 2024-03-28 12:54:37.807920
+2024-03-28 12:54:37,818 INFO django.server "GET /app/ HTTP/1.1" 200 851
+2024-03-28 12:54:40,084 INFO app_06.views someone want our users list
+2024-03-28 12:54:40,122 INFO django.server "GET /app/users/ HTTP/1.1" 200 799
+2024-03-28 12:54:48,044 INFO django.utils.autoreload Watching for file changes with StatReloader
+2024-03-28 12:54:50,809 WARNING app_06.views someone visited home page at 2024-03-28 12:54:50.809742
+2024-03-28 12:54:50,826 INFO django.server "GET /app/ HTTP/1.1" 200 851
+2024-03-28 12:54:52,206 INFO app_06.views someone want our users list
+2024-03-28 12:54:52,243 INFO django.server "GET /app/users/ HTTP/1.1" 200 799

@@ -1,0 +1,10 @@
+Watching for file changes with StatReloader
+someone visited home page at 2024-03-28 12:54:37.807920
+"GET /app/ HTTP/1.1" 200 851
+someone want our users list
+"GET /app/users/ HTTP/1.1" 200 799
+Watching for file changes with StatReloader
+someone visited home page at 2024-03-28 12:54:50.809742
+"GET /app/ HTTP/1.1" 200 851
+someone want our users list
+"GET /app/users/ HTTP/1.1" 200 799
